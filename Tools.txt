@@ -1,0 +1,65 @@
+1. Color hunt - for various amazing colors to use in website(we can use hex code or color name in css)
+2. Adobe Color Wheel
+3. fonts.google.com - for different types of font style 
+   famous font family- Serif(Traditional, Stable, Respectable), Sans-serif(Sensible, Simple, Straight forward), 
+                       Script(Personal, creative, Elegant), display(Friendly, Loud, Amusing), Modern(Stylish, chic, smart)
+   Two famous- Serif and Sans-Serif
+
+4. Four pillars of web design: 
+   - Color Theory
+   - Typography
+   - User Interface (UI) Design
+   - User Experience (UX) Design
+
+
+5. UI Design (5 KEYS TO REMEMBER FOR A GOOD UI FOR A WEBSITE)
+   - Hierarchy 
+   - Layout
+   - Alignment
+   - White Space
+   - Audience
+
+6. UX Design
+   - Simplicity
+   - User Reading Pattern (use the F-layout OR Z-layout depending on type of website)
+   - Avoid dark patterns
+
+
+JS Script ( refer rwaldron/idiomatic.js: Principles)
+jQuery
+
+--------- Backend--------
+1. Server (listen to request from frontend and send back response received from application back to frontend. Normally, should listen 24/7)
+2. Application (Request from frontend is processed by application which may check data from database and may respond with html,css,js file or may return error if request is invalid)
+3. Database (Store all the data permanently which can be accessed by application. Suppose in case of login, password may be checked by application and if password matches, then application respond with home-html,css,js file OR if not matches, then send back login-files with appropriate error message)
+
+
+---------Frontend and Backend Tools and Technologies---------
+Frontend - 
+- HTML, CSS, JavaScript
+          FRONTEND FRAMEWORKS
+- React , Angular, Vue - JavaScript Frameworks
+
+Backend - 
+- Java, Ruby, PHP, C-sharp, Python, JavaScript
+          BACKEND FRAMEWORKS
+- Ruby on Rails(Ruby), Spring(Java), ASP.NET(C-sharp from microsoft), Laravel/Cake(PHP), Flask/Django(Python), Node(JavaScript)
+
+
+----------- APIs ------------------------
+JSON complex structure viewer - jsonviewer.stack.hu
+JS Object -> JSON:     const jsonData = JSON.stringify(data);  //Data is JS Object.
+JSON -> JS Object:     const data = JSON.parse(jsonData);
+
+Server Side API request : Axios (Lot easier to implement compared to Node module, just need to import axios module)
+
+API Authentication: 
+1)No auth
+2)Basic Auth: Here, username and password (Username:Password) are converted to Base64 format (In postman(format) -> Basic R2FydjpHYXJ2MTIz) which if decoded using Base64 decoder gives Garv:Garv123 (R2FydjpHYXJ2MTIz (Base64 encoded)-> Garv:Garv123 (username:password))
+3)API Key Authorization : Just API Key given by server on request and no involvement of Username and Password.    SECURE.....
+4)Token based Auth(OAuth and OAuth 2.0): Username and Password to sign in to API Providers website and followed by token generation (3rd party to user) which interacts with API.   (In postman(format) -> Bearer token)
+
+Public API List(To use in project) - https://github.com/appbrewery/public-api-lists
+                                     Rapid API (developers host their APIs in this website which we can use)
+
+
