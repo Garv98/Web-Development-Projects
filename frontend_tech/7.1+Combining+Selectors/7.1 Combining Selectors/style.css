@@ -1,0 +1,20 @@
+/* Write your code here: */
+h1, h2 {
+    color: blueviolet;
+}
+
+.box > p {
+    color: firebrick;
+}
+
+.box li {
+    color: blue;
+}            /*Descendant selector */
+
+li.done {
+    color: seagreen;
+}           /* Chaining method  */
+
+ul p.done {
+    font-size: 0.5rem
+}           /* combining combiners */
